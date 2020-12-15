@@ -1,0 +1,96 @@
+@model ProductModel
+<form asp-controller="admin" asp-action="ProductEdit" method="POST" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-md-8">
+            <h1 class="h3">Edit Product</h1>
+            <hr>
+            <input type="hidden" id="Id" name="Id" value="@Model.Id">
+            <div class="form-group row">
+                <label asp-for="Name" class="col-sm-3 col-form-label"></label>
+                <div class="col-sm-9">
+                    <input asp-for="Name" class="form-control">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Url" class="col-sm-3 col-form-label"></label>
+                <div class="col-sm-9">
+                    <input asp-for="Url"t class="form-control">
+                    <span asp-validation-for="Url" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Description" class="col-sm-3 col-form-label"></label>
+                <div class="col-sm-9">
+                    <textarea id="editor" asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="ImageUrl" class="col-sm-3 col-form-label"></label>
+                <div class="col-sm-9">
+                    <input type="hidden" asp-for="ImageUrl">
+                    <img src="~/img/@Model.ImageUrl" width="80">
+                    <input type="file" name="file">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Price" class="col-sm-3 col-form-label"></label>
+                <div class="col-sm-9">
+                    <input  asp-for="Price" class="form-control">
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-9 offset-3">
+                    <button type="submit" class="btn btn-primary">Save Product</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h3>Kategoriler</h3>
+            @for (int i = 0; i < Model.SelectedCategories.Count; i++)
+            {
+                <input type="hidden" name="SelectedCategories[@i].Id" value="@Model.SelectedCategories[@i].Id">
+                <input type="hidden" name="SelectedCategories[@i].Name" value="@Model.SelectedCategories[@i].Name">
+            }
+
+            @foreach (var item in (List<Category>)ViewBag.Categories)
+            {
+                <div class="custom-control custom-checkbox">
+                    <input 
+                            type="checkbox" 
+                            class="custom-control-input"
+                            name="categoryIds"
+                            value="@item.Id"
+                            id="category_@(item.Id)"
+                            @(Model.SelectedCategories.Any(i=>i.Id==item.Id)?"checked":"")
+                    >
+                    <label class="custom-control-label" for="category_@(item.Id)">@item.Name</label>
+                </div>
+            }
+            <hr>
+
+            <div class="custom-control custom-checkbox">
+                <input asp-for="IsApproved" type="checkbox" class="custom-control-input">
+                <label asp-for="IsApproved" class="custom-control-label"></label>
+            </div>
+
+            <div class="custom-control custom-checkbox">
+                <input asp-for="IsHome" type="checkbox" class="custom-control-input">
+                <label asp-for="IsHome" class="custom-control-label"></label>
+            </div>
+
+        </div>
+    </div>
+</form>    
+
+@section Scripts
+{
+    <script src="/modules/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="/modules/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+    <script src="/modules/ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('editor');
+    </script>
+}
