@@ -3,6 +3,7 @@
 This project is simple shopping website with dotnet core mvc. Created watching this [Udemy course](https://www.udemy.com/course/komple-web-developer-kursu/ "Udemy course"). 
 
 Project have default two type user: Admin and Customer.
+
 **Customer Users can use these:**
 - register with mail confirm, forgot password and login
 - look products, add to cart and delete than cart
