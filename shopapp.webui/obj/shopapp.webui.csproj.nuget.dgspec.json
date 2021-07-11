@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.webui\\shopapp.webui.csproj": {}
+    "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.webui\\shopapp.webui.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.business\\shopapp.business.csproj": {
+    "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.business\\shopapp.business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.business\\shopapp.business.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.business\\shopapp.business.csproj",
         "projectName": "shopapp.business",
-        "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.business\\shopapp.business.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.business\\shopapp.business.csproj",
         "packagesPath": "C:\\Users\\sk\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.business\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\sk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +32,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.data\\shopapp.data.csproj": {
-                "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.data\\shopapp.data.csproj"
+              "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.data\\shopapp.data.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.data\\shopapp.data.csproj"
               },
-              "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.entity\\shopapp.entity.csproj": {
-                "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.entity\\shopapp.entity.csproj"
+              "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.entity\\shopapp.entity.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.entity\\shopapp.entity.csproj"
               }
             }
           }
@@ -64,21 +68,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.data\\shopapp.data.csproj": {
+    "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.data\\shopapp.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.data\\shopapp.data.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.data\\shopapp.data.csproj",
         "projectName": "shopapp.data",
-        "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.data\\shopapp.data.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.data\\shopapp.data.csproj",
         "packagesPath": "C:\\Users\\sk\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.data\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\sk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,8 +100,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.entity\\shopapp.entity.csproj": {
-                "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.entity\\shopapp.entity.csproj"
+              "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.entity\\shopapp.entity.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.entity\\shopapp.entity.csproj"
               }
             }
           }
@@ -141,21 +149,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.entity\\shopapp.entity.csproj": {
+    "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.entity\\shopapp.entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.entity\\shopapp.entity.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.entity\\shopapp.entity.csproj",
         "projectName": "shopapp.entity",
-        "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.entity\\shopapp.entity.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.entity\\shopapp.entity.csproj",
         "packagesPath": "C:\\Users\\sk\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.entity\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.entity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\sk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -198,21 +210,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.webui\\shopapp.webui.csproj": {
+    "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.webui\\shopapp.webui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.webui\\shopapp.webui.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.webui\\shopapp.webui.csproj",
         "projectName": "shopapp.webui",
-        "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.webui\\shopapp.webui.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.webui\\shopapp.webui.csproj",
         "packagesPath": "C:\\Users\\sk\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.webui\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.webui\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\sk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -226,14 +242,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.business\\shopapp.business.csproj": {
-                "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.business\\shopapp.business.csproj"
+              "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.business\\shopapp.business.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.business\\shopapp.business.csproj"
               },
-              "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.data\\shopapp.data.csproj": {
-                "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.data\\shopapp.data.csproj"
+              "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.data\\shopapp.data.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.data\\shopapp.data.csproj"
               },
-              "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.entity\\shopapp.entity.csproj": {
-                "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.entity\\shopapp.entity.csproj"
+              "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.entity\\shopapp.entity.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.entity\\shopapp.entity.csproj"
               }
             }
           }
@@ -285,7 +301,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

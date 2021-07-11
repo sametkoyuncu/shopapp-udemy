@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U0V15B2n1qB+2JlCYQbn/twyw1QeM8xzzzWA+XsrEPSkBE42p3ayJE0gRRxYFsl3f0scONBxcnvA2XZbB8UoCg==",
+  "dgSpecHash": "STfhvK9LcjemPcnMUV3SwUBDsfuBzJdjEm8ezrHc+AUllzm0GIb+llGDTJ+3q/e6V0V6RYCCfF7w6gbiMlInSg==",
   "success": true,
-  "projectFilePath": "C:\\xampp\\htdocs\\gitRepo\\shopapp\\shopapp.entity\\shopapp.entity.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\gitRepo\\shopapp-udemy\\shopapp.entity\\shopapp.entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sk\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\sk\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
